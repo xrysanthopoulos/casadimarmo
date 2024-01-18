@@ -1,0 +1,82 @@
+/*-------Desktops------*/
+@media (min-width: 761px) {
+.container .container-main img {
+   height: 12vw;
+   width: 12vw;
+   display:inline-block;
+   border: 1px solid #BBB;
+}
+
+.container-main {
+   padding: 0% 0% 5% 0%;
+   margin: 0% 20% 0% 23%;
+    height: 70vw;
+}
+    
+.container-main p {
+font-size: 4vw;
+    color: #fff;
+}
+    
+.container  {
+   margin-top: 1.5vw;
+   width:100%;
+   top: 0px;
+   background-color:#121212;
+}
+    
+.container h1 {
+   font-size: 4vw; 
+   color: #fff;
+   padding: 4vw 0vw 5vw 10vw;
+}
+}
+
+
+
+/*--------Tablets-------*/
+@media screen and (min-width: 421px) and (max-width: 760px) {
+     
+.container-main  img {
+  height:28vw;
+  width: 28vw;
+  display:inline-block;
+}
+
+.container-main p {
+ padding-left: 22%; 
+    font-size: 5vw;
+    color:#fff;
+}
+    
+.container h1 {
+  font-size: 7vw;  
+  padding: 4vw 0vw 5vw 10vw;
+}
+
+}
+
+/*-----Smartphone----*/
+@media screen and (max-width: 420px) {       
+.container-main img {
+  height:60vw;
+  width: 60vw;
+  display: block;
+  margin-top:1.5vw;
+}
+
+.container-main p {
+ margin: 0vw 14vw 5vw 20vw;
+    font-size: 10vw;
+    color: #fff;
+}
+    
+.container h1 {
+  font-size: 10vw;  
+  padding: 4vw 0vw 5vw 10vw;
+}
+
+}
+
+
+

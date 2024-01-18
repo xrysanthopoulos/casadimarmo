@@ -1,0 +1,51 @@
+/*-------Desktops------*/
+@media (min-width: 761px) {
+  .container-main {
+    margin-top: 1.5vw;
+    background-color: #121212;
+    height: 60vw;
+  }
+
+  .container-main h1 {
+    font-size: 4vw;
+    padding-top: 4vw;
+    padding-left: 10vw;
+  }
+}
+
+/*--------Tablets-------*/
+@media screen and (min-width: 421px) and (max-width: 760px) {
+  .container {
+    background-color: #121212;
+  }
+  .container-main {
+    background-color: #121212;
+    margin-top: 2.5vw;
+    padding-top: 5vw;
+    height: 10vw;
+  }
+
+  .container-main h1 {
+    font-size: 4vw;
+    padding-top: 4vw;
+    padding-left: 10vw;
+  }
+}
+
+/*-----Smartphone----*/
+@media screen and (max-width: 420px) {
+  .container {
+    background-color: #121212;
+  }
+  .container-main {
+    background-color: #121212;
+    margin-top: 2.5vw;
+    padding-top: 5vw;
+    height: 20vw;
+  }
+
+  .container-main h1 {
+    font-size: 7vw;
+    padding: 4vw 0vw 5vw 10vw;
+  }
+}

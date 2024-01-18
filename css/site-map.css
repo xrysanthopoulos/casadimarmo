@@ -1,0 +1,345 @@
+/*-------Desktops------*/
+@media (min-width: 761px) {
+.container-main {
+    background-color: cadetblue;
+    margin-top: 1.5vw;
+    padding-top: 5vw;
+    height: 60vw;
+}
+
+.container-main h1 {
+    font-size: 3.5vw; 
+    margin:0vw 0vw 5vw 11vw;
+    color: bisque;
+}
+    
+.container a {
+    color:black;
+    font-size: 1.5vw;
+    margin-left: 22vw;
+}
+
+.container ul {
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    list-style:2;
+}
+    
+.container li {
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    list-style:2;
+}
+    
+    
+footer {
+    background-color: #080808;
+    height:9vw;
+    width: 100%; 
+}  
+        
+.social {
+    float: right;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    
+}
+
+.social h3 {
+   font-size: 1vw; 
+   text-align: center;
+}
+.social img {
+    height: 2.8vw;
+    width: 2.8vw;
+    margin: 2px;
+}
+   
+.copyright {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+
+}
+.copyright .footer-pull-left {
+  float: left;
+  width:45%;
+    margin: auto;
+    height: 3.5vw;
+  background-color:#080808;
+}
+    
+.copyright .footer-pull-left p {
+     padding-left: 1vw;
+     font-size: 1.3vw;
+    color:azure;
+}
+    
+.copyright .footer-pull-right {
+  float: right;
+  width:55%;
+    height: 3.5vw;
+  margin-right: auto;
+  background-color: #080808;
+}
+    
+.copyright .footer-pull-right p{
+    float:right;
+    font-size: 1.2vw;
+    text-align: right;
+    display:inline;
+    color:azure;
+    
+}
+    
+.copyright .footer-pull-right .name {
+    float:right;
+    font-size: 1.3vw;
+    padding-left:0.5vw;
+    padding-right: 0.8vw;
+    color:black;
+    text-decoration: none;
+}
+    
+.site-map {
+    text-align: center;
+    position: absolute;
+    margin-top: 1.6vw;
+    font-size:1vw;
+    font-family: sans-serif;
+    color:azure;
+    text-decoration:none;
+    
+}
+}
+
+
+
+/*--------Tablets-------*/
+@media screen and (min-width: 421px) and (max-width: 760px) {
+
+.container-main {
+    background-color: #121212;
+    margin-top: 1.5vw;
+    padding-top: 5vw;
+    height: 130vw
+}
+
+.container-main h1 {
+    font-size: 3.5vw; 
+    margin:0vw 0vw 10vw 11vw;
+    color: bisque;
+}
+    
+.container a {
+    color:black;
+    font-size: 3vw;
+    margin: 0vw 0vw 0vw 22vw;
+    
+}
+
+.container ul {
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    list-style:none;
+}
+    
+.container li {
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    list-style:none;  
+} 
+    
+    
+.social {
+    float: right;
+    margin-top: 3vw;
+    margin-right: 1vw;
+  
+}
+
+.social h3 {
+   font-size: 2vw; 
+   text-align: center;
+}
+.social img {
+    height: 6vw;
+    width: 6vw;
+    margin: 0.5vw;
+}
+  
+.copyright {
+  margin-left: auto;
+  margin-right: auto;   
+  width: 100%;
+    height: 4vw;
+    
+
+}
+.copyright .footer-pull-left {
+  float: left;
+  width:45%;
+    margin: auto;
+    padding-top: 1vw;
+    height: 4vw;
+  background-color:#080808;
+}
+    
+.copyright .footer-pull-left p {
+     padding-left: 1.5vw;
+     font-size: 1.5vw;
+    font-family:sans-serif;
+    color:azure;
+}
+    
+.copyright .footer-pull-right {
+  float: right;
+  width:55%;
+    height: 4vw;
+    padding-top: 1vw;
+  margin-right: auto;
+  background-color:#080808;
+}
+    
+.copyright .footer-pull-right p{
+    float:right;
+    font-size: 1.5vw;
+    font-family:sans-serif;
+    text-align: right;
+    display:inline;
+    color:azure;
+    
+}
+    
+.copyright .footer-pull-right .name {
+    float:right;
+    font-size: 1.5vw;
+    padding-left:0.5vw;
+    padding-right: 0.8vw;
+    color:black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+    
+.site-map {
+    text-align: center;
+    position: absolute;
+    font-size:1.7vw;
+    padding-top: 0vw;
+    font-family: sans-serif;
+    color:azure;
+    text-decoration:none;
+    
+}
+}
+
+/*-----Smartphone----*/
+@media screen and (max-width: 420px) {    
+
+.container-main {
+    background-color: #121212;
+    margin-top: 1.5vw;
+    padding-top: 5vw;
+    height: 190vw;
+}
+
+.container-main h1 {
+    font-size: 8.5vw; 
+    margin:0vw 0vw 5vw 11vw;
+    color: bisque;
+}
+    
+.container a {
+    color:black;
+    font-size: 5.5vw;
+    margin-left: 22vw;
+}
+
+.container ul {
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    list-style:none;
+}
+    
+.container li {
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    list-style:none;
+}
+    
+    
+.social {
+    float: right;
+    margin-top: 3vw;
+    margin-right: 1vw;
+  
+}
+
+.social h3 {
+   font-size: 6vw; 
+   text-align: center;
+}
+.social img {
+    height: 13vw;
+    width: 13vw;
+    margin: 0.5vw;
+}
+   
+.copyright {
+  margin-left: auto;
+  margin-right: auto;   
+  width: 100%;
+    height: 10vw; 
+
+}
+.copyright .footer-pull-left {
+  float: left;
+  width:45%;
+    margin: auto;
+    padding-top: 1vw;
+  background-color:#080808;
+}
+    
+.copyright .footer-pull-left p {
+     padding-left: 1vw;
+    padding-top: 7vw;
+     font-size: 4vw;
+    color:azure;
+}
+    
+.copyright .footer-pull-right {
+  float: right;
+  width:55%;
+    padding-top: 1vw;
+
+  background-color:#080808;
+}
+    
+.copyright .footer-pull-right p{
+    float:right;
+    font-size: 4.5vw;
+    margin-right: 1vw;
+    text-align: right;
+    display:inline;
+    color:azure;
+    
+}
+    
+.copyright .footer-pull-right .name {
+    float:right;
+    font-size: 4.5vw;
+    padding-left:0.5vw;
+    padding-right: 1vw;
+    color:black;
+    text-decoration: none;
+}
+    
+.site-map {
+    visibility: hidden;
+    display: none;
+    
+}
+}
+
+
+

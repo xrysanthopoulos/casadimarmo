@@ -1,0 +1,90 @@
+/*-------Desktops------*/
+@media (min-width: 760px) {
+  .container-main img:nth-child(-n + 2) {
+    height: 25vw;
+    width: 25vw;
+    display: inline-block;
+    margin-top: 10vw;
+  }
+
+  .container-main img {
+    height: 25vw;
+    width: 25vw;
+    display: inline-block;
+    margin-top: 0px;
+  }
+
+  .container h1 {
+    font-size: 4vw;
+    padding-top: 4vw;
+    padding-left: 10vw;
+  }
+
+  .container-main {
+    padding: 0% 0% 10% 0%;
+    margin: 0% 20% 0% 23%;
+  }
+
+  .container {
+    margin-top: 1.5vw;
+    width: 100%;
+    top: 0px;
+    background-color: #121212;
+  }
+}
+
+/*-------Tablets------*/
+@media screen and (min-width: 421px) and (max-width: 760px) {
+  .container {
+    background-color: #121212;
+  }
+  .container-main img:nth-child(-n + 2) {
+    height: 28vw;
+    width: 28vw;
+    display: block;
+    margin-top: 60px;
+    display: inline-block;
+  }
+
+  .container-main img {
+    height: 28vw;
+    width: 28vw;
+    display: block;
+    margin-top: 5px;
+    display: inline-block;
+  }
+
+  .container h1 {
+    font-size: 4vw;
+    padding-top: 4vw;
+    padding-left: 10vw;
+  }
+
+  .container-main {
+    padding-left: 22%;
+  }
+}
+
+/*-------Smartphone-------*/
+@media only screen and (max-width: 420px) {
+  .container {
+    background-color: #121212;
+  }
+  .container .container-main img {
+    height: 55vw;
+    width: 55vw;
+    display: block;
+    margin-top: 2vw;
+    border: 1px solid #bbb;
+  }
+
+  .container-main {
+    padding: 0% 0% 10% 0%;
+    margin: 0% 18% 0% 24%;
+  }
+
+  .container h1 {
+    font-size: 7vw;
+    padding: 4vw 0vw 5vw 10vw;
+  }
+}

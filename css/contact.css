@@ -1,0 +1,132 @@
+@media (min-width: 761px) {
+  .contact {
+    width: 100%;
+    top: 0px;
+    padding-bottom: 20vh;
+    background-color: #121212;
+  }
+  .contact h1 {
+    font-size: 4vw;
+    padding-top: 4vw;
+    padding-left: 10vw;
+  }
+  body {
+    font-size: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #3a3a3a;
+  }
+  .body {
+    width: 576px;
+    margin: 0 auto;
+    display: block;
+  }
+  h1 {
+    width: 498px;
+    height: 64px;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 17px 0px 0px 78px;
+    letter-spacing: 1px;
+    font-size: 2.2em;
+    margin: 0 auto;
+  }
+  .text-position {
+    flex: 1;
+    padding: 2vw;
+    border-right: solid 1px #e7e7e7;
+    text-align: center;
+  }
+  .text-position h6 {
+    font-family: sans-serif;
+    font-size: 3vw;
+  }
+  .text-position p,
+  .text-position a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+  }
+  #map {
+    height: 39vw;
+    z-index: 0;
+  }
+  .messenger {
+    width: 3vw;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 760px) {
+  .contact {
+    background-color: #121212;
+    padding-top: 8vw;
+  }
+  .contact h1 {
+    font-size: 4vw;
+    padding-top: 4vw;
+    padding-left: 10vw;
+  }
+
+  .text-position {
+    padding-bottom: 5vh;
+    text-align: center;
+  }
+  .text-position h6 {
+    font-family: sans-serif;
+    font-size: 5vw;
+    padding-top: 4vw;
+  }
+  .text-position p,
+  .text-position a {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2.8vw;
+  }
+
+  .messenger {
+    width: 3vw;
+    vertical-align: middle;
+  }
+
+  #map {
+    height: 38vw;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .contact {
+    background-color: #121212;
+  }
+  .contact h1 {
+    font-size: 7vw;
+    padding: 4vw 0vw 5vw 10vw;
+  }
+  .text-position {
+    text-align: center;
+    padding-bottom: 8vh;
+  }
+  .text-position h6 {
+    font-family: sans-serif;
+    font-size: 9vw;
+    padding-top: 5vw;
+  }
+  .text-position p,
+  .text-position a {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 6vw;
+  }
+
+  .messenger {
+    width: 10vw;
+    vertical-align: middle;
+  }
+
+  #map {
+    margin-top: 40vh;
+    height: 65vw;
+    width: 100%;
+    padding: 1vw;
+  }
+}
